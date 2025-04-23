@@ -1,1 +1,57 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>رحلة إلى أعماق المحيط</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="icon" href="./images/Ocean.jpg">
+</head>
+<body>
+   <nav>
+   <ul>
+       <il><a href="./index.html">Home</a></il>
+       <il><a href="./marine-species.html" target="_blank">Marine Species</a></il>
+       <il><a href="#" target="_blank">Contact Us</a></il>
+   </ul>
+   </nav>
+
+   <header>
+    <h1>انضم إلى مهمة استكشاف المحيط</h1>
+  </header>
+
+  <section class="form-container">
+    <form action="#" method="POST">
+      <label for="full-name">الاسم الكامل:</label>
+      <input type="text" id="full-name" name="full-name" required>
+
+      <label for="age">العمر:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="gender">الجنس:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">ذكر</option>
+        <option value="female">أنثى</option>
+        <option value="other">آخر</option>
+      </select>
+
+      <label for="diver">هل ترغب في أن تكون غواصًا؟</label>
+      <input type="radio" id="yes" name="diver" value="yes" required>
+      <label for="yes">نعم</label>
+      <input type="radio" id="no" name="diver" value="no" required>
+      <label for="no">لا</label>
+
+      <label for="interest">اختر مهتم بمجال:</label>
+      <select id="interest" name="interest" required>
+        <option value="oceans">المحيطات</option>
+        <option value="marine-environment">البيئة البحرية</option>
+        <option value="marine-creatures">الكائنات البحرية</option>
+      </select>
+
+      <label for="reason">لماذا تريد الانضمام؟</label>
+      <textarea id="reason" name="reason" rows="4" required></textarea>
+
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+</html>
