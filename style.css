@@ -4,9 +4,65 @@ body{
     background-size: cover;
     height: 100vh;
 }
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    align-items: center;
+}
 
+ul il a{
+    text-decoration: none;
+    padding: 1em;
+    color: aliceblue;
+    cursor: pointer;
+}
 
+ul il a:hover
+{
+  color: rgb(172, 184, 246);
+  transition: 0.s;
+}
+.text
+{
+        color: aliceblue;
+        text-align: center;
+}
 
-
+.text h1
+{
+    margin-bottom: 1em;
+    font-size: 50px;
+    color: rgb(172, 184, 246);
+}
+.text h3{
+    font-size: 1.5em;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    font-style: italic;        
+    font-weight: bold;         
+    text-decoration: underline
+}
+.text h5
+{
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    width: 60%;
+    margin:  auto;
+    margin-top: 3em;
+    font-size: 0.8em;
+}
+iframe {
+    width: 30%;
+    height:30%;
+    border: none; 
+    border-radius: 8px; 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
   
   
